@@ -1,9 +1,30 @@
+@keyframes rotate {
+    from {transform: rotate (0);
+}
+
+to {
+    transform: rotate(360deg);
+}
+    
+}
+
+.rotate:hover {
+    animation-name: rotate;
+    animation-duration: 1s;
+    
+}
+
+
+
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+
 
 .container {
     width: 375px;
@@ -434,6 +455,11 @@ body {
    .users {
     margin-left: 32px;
    }
+
+
+   
+
+
 
 
 }
