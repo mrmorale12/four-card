@@ -1,0 +1,439 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 375px;
+    height: 1360px;
+    background-color: #FAFAFA;
+}
+
+.firstparagraph {
+    margin-top: 85px;
+    text-align: center;
+    color: #4D4F62;
+    font-family: poppins;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.17px;
+    
+    
+}
+
+.secondparagraph {
+    margin-bottom: 13px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.17px;
+    color: #4D4F62;
+
+
+}
+.thirdparagraph {
+    margin-bottom:  76px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.desktopversion {
+    display: none;
+    margin-bottom:  76px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: #4D4F62;
+}
+
+.supervisor {
+    position: relative;
+    width: 311px;
+    height: 222px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 32px 25px 32px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.supervisor:hover {
+    background-color: #44D3D2;
+    
+
+}
+
+.visericon {
+    position:absolute;
+    top: 137px;
+    left: 226px;
+    width: 57px;
+    height: 57px;
+
+}
+
+.firstline {
+    width: 311px;
+    height: 3.55px;
+    background-color: #44D3D2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+
+.super {
+    margin: 27px 174px 1px 28px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    
+}
+
+.monitors {
+    margin: 0 28px 33px 29px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.teambuilder {
+    position: relative;
+    width: 311px;
+    height: 222px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 32px 23px 32px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.teambuilder:hover {
+    background-color: #f87b7b;
+    
+}
+
+.teamicon {
+    position: absolute;
+    top: 137px;
+    left: 226px;
+    width: 57px;
+    height: 57px;
+
+}
+
+.secondline {
+    width: 311px;
+    height: 3.55px;
+    background-color: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+}
+
+.team {
+    margin: 27px 0 1px 28px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+.scans {
+    margin: 0 28px 33px 29px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.karma {
+    position: relative;
+    width: 311px;
+    height: 222px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 32px 24px 32px;
+    box-shadow:  0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.karma:hover {
+    background-color: #ffb657;
+
+}
+
+.thirdline {
+    width: 311px;
+    height: 3.55px;
+    background-color: #FCAE4A;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+}
+
+.karmaicon {
+    position: absolute;
+    top: 137px;
+    left: 226px;
+    width: 57px;
+    height: 57px;
+
+}
+
+.karmatext {
+    margin: 27px 212px 1px 29px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+.regular {
+    margin: 0 28px 33px 29px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.calculator {
+    position: relative;
+    width: 311px;
+    height: 222px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 32px 78px 32px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.calculator:hover {
+    background-color: #65a9f7;
+
+}
+
+.fourthline {
+    width: 311px;
+    height: 3.55px;
+    background-color: #549EF2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.calculatoricon {
+    position: absolute;
+    top: 137px;
+    left: 227px;
+    width: 57px;
+    height: 57px;
+}
+
+.calculatortext {
+    margin: 27px 175px 1px 28px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+
+
+}
+
+.users { 
+    margin: 0 28px 33px 29px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #4D4F62;
+    opacity: 50%;
+
+}
+
+
+@media (min-width: 650px) {
+    .secondcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+    }
+
+    .container {
+        height: 922px;
+        width: 100%;
+    }
+
+    .supervisor {
+        width: 350px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .firstline {
+        width: 350px;
+        height: 4px;
+    }
+
+    .teambuilder {
+        width: 350px;
+        height: 250px;
+        margin: 0;
+        margin-bottom: 30px;
+
+    }
+
+    .secondline {
+        width: 350px;
+        height: 4px;
+    }
+
+    .karma {
+        width: 350px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .thirdline {
+        width: 350px;
+        height: 4px;
+    }
+
+    .calculator {
+        width: 350px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .fourthline {
+        width: 350px;
+        height: 4px;
+    }
+
+    .firstparagraph {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    margin-top: 80px;
+}
+
+    .secondparagraph {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+}
+
+   .thirdparagraph {
+    display: none;
+
+   }
+
+   .desktopversion {
+    display: block;
+    opacity: 50%;
+    margin-bottom: 64px;
+   }
+
+   .visericon {
+    width: 64px;
+    height: 64px;
+    top: 154px;
+    left: 254px;
+   }
+
+   .teamicon {
+    width: 64px;
+    height: 64px;
+    top: 154px;
+    left: 254px;
+    
+   }
+
+   .karmaicon {
+    width: 64px;
+    height: 64px;
+    top: 154px;
+    left: 254px;
+   }
+
+   .calculatoricon {
+    width: 64px;
+    height: 64px;
+    top: 154px;
+    left: 254px;
+   }
+
+   .super {
+    margin-top:28px;
+    margin-bottom: 6px;
+    margin-left: 32px;
+   }
+
+   .monitors {
+    margin-left: 32px;
+    
+   }
+
+   .team {
+    margin-top:28px;
+    margin-bottom: 6px;
+    margin-left: 32px;
+   }
+
+   .scans {
+    margin-left: 32px;
+   }
+
+   .karmatext {
+    margin-top: 28px;
+    margin-bottom: 6px;
+    margin-left: 32px;
+   }
+
+   .regular {
+    margin-left: 32px;
+   }
+
+   .calculatortext {
+    margin-top:28px;
+    margin-bottom: 6px;
+    margin-left: 32px;
+   }
+
+   .users {
+    margin-left: 32px;
+   }
+
+
+}
