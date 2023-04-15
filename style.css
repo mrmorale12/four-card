@@ -89,6 +89,7 @@ body {
     border-radius: 8px;
     margin: 0 32px 25px 32px;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    overflow: hidden;
 }
 
 .supervisor:hover {
@@ -111,8 +112,7 @@ body {
     height: 3.55px;
     background-color: #44D3D2;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    
     
 }
 
@@ -145,6 +145,7 @@ body {
     border-radius: 8px;
     margin: 0 32px 23px 32px;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    overflow: hidden;
 }
 
 .teambuilder:hover {
@@ -166,8 +167,7 @@ body {
     height: 3.55px;
     background-color: #EA5454;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    
     
 }
 
@@ -199,6 +199,7 @@ body {
     border-radius: 8px;
     margin: 0 32px 24px 32px;
     box-shadow:  0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    overflow: hidden;
 }
 
 .karma:hover {
@@ -211,8 +212,7 @@ body {
     height: 3.55px;
     background-color: #FCAE4A;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    
     
 }
 
@@ -253,6 +253,7 @@ body {
     border-radius: 8px;
     margin: 0 32px 78px 32px;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    overflow: hidden;
 }
 
 .calculator:hover {
@@ -265,8 +266,7 @@ body {
     height: 3.55px;
     background-color: #549EF2;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    
 }
 
 .calculatoricon {
